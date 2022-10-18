@@ -1,14 +1,18 @@
 package com.example.cv
 
-import androidx.appcompat.app.AppCompatActivity
+import android.annotation.SuppressLint
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.view.menu.MenuBuilder
 import com.example.cv.databinding.ActivityMainBinding
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
+
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -42,6 +46,7 @@ class MainActivity : AppCompatActivity() {
 
 
     }
+    @SuppressLint("RestrictedApi")
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.main_menu,menu)
         // Code to get the title and icon on the option overflow
@@ -51,10 +56,22 @@ class MainActivity : AppCompatActivity() {
         return super.onCreateOptionsMenu(menu)
     }
     override fun onOptionsItemSelected(item: MenuItem):Boolean {
-        Toast.makeText(
-            applicationContext,
-            item.title.toString(),
-            Toast.LENGTH_LONG).show()
+        if (item.itemId==R.id.m1){
+            val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com"))
+            startActivity(browserIntent)
+        }
+        if (item.itemId==R.id.m2){
+            val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://linkedin.com"))
+            startActivity(browserIntent)
+        }
+        if (item.itemId==R.id.m3){
+            val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com"))
+            startActivity(browserIntent)
+        }
+        if (item.itemId==R.id.m4){
+            val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.twitter.com"))
+            startActivity(browserIntent)
+        }
         return super.onOptionsItemSelected(item)
     }
 }

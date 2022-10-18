@@ -3,4 +3,27 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="core_competencies">Major phases of SDLC, Web Services, Design Patterns, SOA, Java Programming, Dot Net Programming, Oracle PL/SQL.</string>
+    <array name="work_companies">
+        <item>Google</item>
+        <item>Oracle</item>
+        <item>Microsoft</item>
+    </array>
+    <array name="work_positions">
+        <item>Android Developer</item>
+        <item>DBA</item>
+        <item>Software Engineer</item>
+    </array>
+    <array name="work_dates">
+        <item>Jan/2022 - Jul/2022</item>
+        <item>Jan/2021 - Dec/2021</item>
+        <item>Jan/2020 - Dec/2020</item>
+    </array>
+    <array name="work_tasks">
+        <item>Made key contributions to back-end software development and implementation
+        \nRecommended and executed improvements which resulted in a 65% increase in performance</item>
+        <item>Produced clean, efficient code in Python, C and C++ based on specifications
+        \nContributed to development of organizational flow software enabling teams to manage multiple tasks, oversee scheduling, and set time limits</item>
+        <item>Successfully developed two major projects for client PDF Solutions in San Jose, CA, to improve quality of computer chip manufacturing
+            \nEnsured timely completion of complex projects despite challenging deadlines</item>
+    </array>
 </resources>
