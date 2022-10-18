@@ -3,6 +3,22 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="core_competencies">Major phases of SDLC, Web Services, Design Patterns, SOA, Java Programming, Dot Net Programming, Oracle PL/SQL.</string>
+    <string name="my_contacts">My Contacts</string>
+    <string name="_641_164_5544">+(641)164-5544</string>
+    <string name="mobile">Mobile</string>
+    <string name="developer.gmail.com">devleoper@gmai.com</string>
+    <string name="email">Email</string>
+    <string name="https_www_linkedin_com_in_test">https://www.linkedin.com/in/muntinova</string>
+    <string name="linkedin_website">LinkedIn Website</string>
+    <string name="https_github_com_test">https://github.com/muntinova</string>
+    <string name="github">GitHub</string>
+    <string name="pdf">PDF</string>
+    <string name="resume_pdf">Resume pdf</string>
+    <string name="phone">phone</string>
+    <string name="email_c">email</string>
+    <string name="linkedin">linkedIn</string>
+    <string name="github_description">github</string>
+    <string name="pdf_description">PDF</string>
     <array name="work_companies">
         <item>Google</item>
         <item>Oracle</item>
@@ -20,9 +36,9 @@
     </array>
     <array name="work_tasks">
         <item>Made key contributions to back-end software development and implementation
-        \nRecommended and executed improvements which resulted in a 65% increase in performance</item>
+            \nRecommended and executed improvements which resulted in a 65% increase in performance</item>
         <item>Produced clean, efficient code in Python, C and C++ based on specifications
-        \nContributed to development of organizational flow software enabling teams to manage multiple tasks, oversee scheduling, and set time limits</item>
+            \nContributed to development of organizational flow software enabling teams to manage multiple tasks, oversee scheduling, and set time limits</item>
         <item>Successfully developed two major projects for client PDF Solutions in San Jose, CA, to improve quality of computer chip manufacturing
             \nEnsured timely completion of complex projects despite challenging deadlines</item>
     </array>
