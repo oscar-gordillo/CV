@@ -1,8 +1,26 @@
 <resources>
     <string name="app_name">CV</string>
     <!-- TODO: Remove or change this placeholder text -->
+    <string name="about_me1">Motivated software developer with 5+ years of hands-on, professional software development experience
+    in the full stack design and development of software solutions, using all phases of the Software Development Life Cycle.</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="core_competencies">Major phases of SDLC, Web Services, Design Patterns, SOA, Java Programming, Dot Net Programming, Oracle PL/SQL.</string>
+    <string name="my_contacts">My Contacts</string>
+    <string name="_641_164_5544">+(641)164-5544</string>
+    <string name="mobile">Mobile</string>
+    <string name="developer.gmail.com">devleoper@gmai.com</string>
+    <string name="email">Email</string>
+    <string name="https_www_linkedin_com_in_test">https://www.linkedin.com/in/muntinova</string>
+    <string name="linkedin_website">LinkedIn Website</string>
+    <string name="https_github_com_test">https://github.com/muntinova</string>
+    <string name="github">GitHub</string>
+    <string name="pdf">PDF</string>
+    <string name="resume_pdf">Resume pdf</string>
+    <string name="phone">phone</string>
+    <string name="email_c">email</string>
+    <string name="linkedin">linkedIn</string>
+    <string name="github_description">github</string>
+    <string name="pdf_description">PDF</string>
     <array name="work_companies">
         <item>Google</item>
         <item>Oracle</item>
